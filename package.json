@@ -14,5 +14,9 @@
     "live-server": "^1.2.1",
     "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "wowjs": "^1.1.3"
   }
 }

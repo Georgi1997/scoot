@@ -13,6 +13,9 @@ html {
     html {
       font-size: 55%; } }
 
+section {
+  transition: transform 1s, opacity 1s; }
+
 body {
   font-family: "Lexend Deca", sans-serif; }
 
@@ -97,6 +100,10 @@ p.paragraph-main {
   .btn.btn-secondary:hover, .btn.btn-secondary:active {
     background-color: #fcb72b;
     color: #f2f5f9; }
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem); }
 
 .navbar {
   display: flex;
