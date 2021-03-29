@@ -501,7 +501,7 @@ p.paragraph-main {
         margin-top: 0;
         opacity: 0;
         max-height: 0;
-        transition: max-height 0.7s ease, opacity 0.1s ease, margin 0.1s ease; }
+        transition: all 0.3s ease; }
 
 .paragraph-main.textActive {
   opacity: 1;
